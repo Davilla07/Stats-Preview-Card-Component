@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frontend Mentor - Stats Preview Card</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/icon"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+  </head>
+  <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <main id="main-content">
+      <div class="card">
+        <div class="card__img-container">
+          <img
+            class="card__img"
+            srcset="
+              /images/image-header-mobile.jpg  375w,
+              /images/image-header-desktop.jpg 900w
+            "
+            sizes="(min-width: 768px) 50vw, 100vw"
+            alt="Three people collaborating in a modern desktop environment with laptops"
+          />
+        </div>
+        <div class="card__content">
+          <h1 class="card__content--title">
+            Get <span class="text-accent">insights</span> that help your
+            business grow.
+          </h1>
+          <p class="card__content--description">
+            Discover the benefits of data analytics and better decisions
+            regarding revenue, costumer experience, and overall efficiency.
+          </p>
+          <ul class="card__statistics">
+            <li class="card__statistics--companies">
+              <strong>10k+</strong>
+              <span>Companies</span>
+            </li>
+            <li class="card__statistics--templates">
+              <strong>314</strong>
+              <span>Templates</span>
+            </li>
+            <li class="card__statistics--queries">
+              <strong>12M+</strong>
+              <span>Queries</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="attribution text-attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/Davilla07">Davilla</a>.
+      </p>
+    </footer>
+  </body>
+</html>
